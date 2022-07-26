@@ -1,0 +1,10 @@
+.board {
+    border: 1px solid red;
+    margin: 5px;
+    padding: 5px;
+    min-height: 50px;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
