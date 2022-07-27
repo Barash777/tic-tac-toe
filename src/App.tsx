@@ -5,7 +5,7 @@ import Board from './components/Board/Board';
 function App() {
 
     // const minRows = 2, minColumns = 2, minWinStreak = 2;
-    let rows = 3, columns = 3, winStreak = 3;
+    let rows = 10, columns = 20, winStreak = 3;
 
     return (
         <div className="App">
