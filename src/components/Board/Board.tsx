@@ -23,25 +23,15 @@ const Board = ({rows, columns, winStreak}: BoardPropsType) => {
         rowsJSX = []
     }
 
-    // console.log('rows', rowsJSX)
-
     const BoardJSX = columnsJSX.map((e, i) => {
         return <div key={i}>{e}</div>
     })
 
+    // check who wins
 
     return (
         <div className={css.board}>
             {BoardJSX}
-
-            {/*<Square cross={cross} toggleCross={setCross}/>
-            <Square cross={cross} toggleCross={setCross}/>
-            <Square cross={cross} toggleCross={setCross}/>
-            <Square cross={cross} toggleCross={setCross}/>
-            <Square cross={cross} toggleCross={setCross}/>
-            <Square cross={cross} toggleCross={setCross}/>
-            <Square cross={cross} toggleCross={setCross}/>
-            <Square cross={cross} toggleCross={setCross}/>*/}
         </div>
     );
 };

@@ -9,10 +9,12 @@
 }
 
 .cross {
-    background-image: url("../../assets/images/red-cross-my.png");
+    background: center / contain no-repeat url("../../assets/images/red-cross-my.png");
+    /*background-size: 100%*/
+    /*object-fit: contain;*/
 }
 
 
 .circle {
-    background-image: url("../../assets/images/red-circle-my.png");
+    background: center / contain no-repeat url("../../assets/images/red-circle-my.png");
 }

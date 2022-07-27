@@ -1,1 +1,1 @@
-I'll try to create tick-tac-toe game from the scratch
+I'll try to create tic-tac-toe game from the scratch
