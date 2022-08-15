@@ -9,6 +9,7 @@ export type SquarePropsType = {
 const Square = ({cross, toggleCross}: SquarePropsType) => {
 
     const [finalClass, setFinalClass] = useState<string>(css.square)
+    
 
     const onClickHandler = (/*e: React.MouseEvent<HTMLDivElement>*/) => {
         // const style = (e.target as HTMLInputElement).style
