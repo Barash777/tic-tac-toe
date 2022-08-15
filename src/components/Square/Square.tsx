@@ -10,7 +10,7 @@ const Square = ({cross, toggleCross}: SquarePropsType) => {
 
     const [finalClass, setFinalClass] = useState<string>(css.square)
 
-    const onDoubleClickHandler = (/*e: React.MouseEvent<HTMLDivElement>*/) => {
+    const onClickHandler = (/*e: React.MouseEvent<HTMLDivElement>*/) => {
         // const style = (e.target as HTMLInputElement).style
         // const color = style.backgroundColor
         // color === '' ? style.backgroundColor = 'green' : style.backgroundColor = ''
@@ -22,7 +22,7 @@ const Square = ({cross, toggleCross}: SquarePropsType) => {
     }
 
     return (
-        <div className={finalClass} onDoubleClick={onDoubleClickHandler}></div>
+        <div className={finalClass} onClick={onClickHandler}></div>
     );
 };
 
